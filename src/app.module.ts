@@ -14,7 +14,7 @@ import { PostModule } from './modules/post/post.module';
       isGlobal: true,
     }),
     TypeOrmModule.forRoot({
-      type: 'mysql',
+      type: 'mariadb',
       host: configuration().database.host,
       port: configuration().database.port,
       username: configuration().database.user,
