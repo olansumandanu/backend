@@ -11,15 +11,12 @@ export class Post {
   @Column()
   body: string;
 
-  @Column()
-  photo: string;
-
-  @Column()
+  @Column({ nullable: true })
   likes: string;
 
-  @Column()
+  @Column({ nullable: true })
   comments: string;
 
   @Column()
-  postedBy: string;
+  postedBy: number;
 }

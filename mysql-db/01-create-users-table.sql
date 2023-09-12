@@ -4,3 +4,9 @@ CREATE TABLE users(
    name VARCHAR(50) NOT NULL,
    PRIMARY KEY(id)
 );
+
+CREATE TABLE posts(
+   id INT AUTO_INCREMENT,
+   title VARCHAR(50) NOT NULL,
+   PRIMARY KEY(id)
+);
