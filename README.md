@@ -52,6 +52,7 @@ $ npm run test:cov
 - [POST /api/post/comment](#post-apipostcomment)
 - [POST /api/post/like](#post-apipostlike)
 - [POST /api/post/unlike](#post-apipostunlike)
+- [GET /api/post/search](#get-apipostsearch)
 
 ## Auth
 
@@ -91,3 +92,7 @@ $ npm run test:cov
 ### POST /api/post/unlike
 
 - **postId**: Id post
+
+### GET /api/post/search
+
+- **keyword**: keyword
